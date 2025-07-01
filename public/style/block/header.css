@@ -1,0 +1,60 @@
+header{
+margin: 0px;
+padding: 64px 96px 50px 96px;
+justify-content: center;
+
+}
+
+.icon {
+  width: 24px;       /* Фиксированный размер */
+  height: 24px;
+  flex-shrink: 0;    /* Запрет сжиматься в Flex-контейнерах */
+}
+
+.header-shop{
+
+font-family:var(--fonts-Decorative);
+font-weight: 400;
+font-size: 16px;
+padding: 0 0 0 0;
+color: var(--color-black-light);
+}
+
+
+.header-logo{
+padding-right: 76%;
+}
+.horizontal-line {
+  position: relative; /* Чтобы ::after мог позиционироваться внутри */
+  padding-right: 48px; Отступ справа для палочки
+}
+
+.horizontal-line::after {
+  content: "";
+  position: absolute;
+  right: 0;   
+  top: 10%; 
+  height: 81%; 
+  width: 1px; 
+  background: var(--color-gray-dark);
+}
+
+.header-catalogs{
+display: flex;
+
+}
+
+.container{
+    max-width: 1448px;
+    display: flex;
+    align-items: center;
+
+/* justify-content: space-between; */
+}
+
+body{
+
+}
+.catalogs-shops{
+    padding-right: 29PX;
+}

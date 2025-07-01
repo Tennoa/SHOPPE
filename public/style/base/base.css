@@ -1,0 +1,9 @@
+:root{
+    --color-white: #FFFFFF;
+    --color-black-dark: #0A0A0A;
+    --color-black-light: #000000;
+    --color-gray-dark:#707070;
+
+    --fonts-Header:"AllertaStencil-Regular"; /* Для заголовков */
+    --fonts-Decorative:"DM Sans"; 
+}
